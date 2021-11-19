@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "json-server": "json-server ./lib/db.json --port 8080"
+  },
+  "license": "Apache License 2.0",
+  "author": {
+    "name": "Onurcan Sevinc",
+    "email": "onurcansevinc@yandex.com"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "next": "^12.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sharp": "^0.29.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.0",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
